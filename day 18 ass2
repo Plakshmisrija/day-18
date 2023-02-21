@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+long int n,r,s=0;
+printf("enter the value of n \n");
+scanf("%ld",&n);
+while(n>0)
+{
+r=n%10;
+s=s*10+r;
+n=n/10;
+}
+printf("Palindrome number %ld",s);
+else
+printf("not a Palindrome number %ld",s);
+}
